@@ -155,7 +155,10 @@ GraphMatrix* load_graph_from_file(const char* filename) {
                 fclose(f);
                 return NULL;
             }
-            gm->matrix[i][j] = val;
+            if (val > INF)
+                gm->matrix[i][j] = INF;
+            else
+                gm->matrix[i][j] = val;
         }
     }
 
