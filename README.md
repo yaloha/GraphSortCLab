@@ -55,7 +55,7 @@ typedef struct {
 ![img.png](img.png)
 ## 5. Бенчмаркинг
 Проведен бенчмарк на случайных данных с увеличением размерности матрицы смежности
-```json
+```text
 Running ../build/benchmark_run
 Run on (16 X 3193.91 MHz CPU s)
 CPU Caches:
